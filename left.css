@@ -1,0 +1,117 @@
+.left{
+    width: 245px;
+    height: 915px;
+    background-color: black;
+    
+    border-right:1px solid gray ;
+    display: grid;
+    grid-template-rows: 100px 1fr 1fr;
+    color: white;
+    font-family: arial;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.left-keys img{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    object-fit:contain;
+    object-position: center;
+}
+.left-keys .img{
+    filter:invert(99%) sepia(9%) saturate(832%) hue-rotate(211deg) brightness(115%) contrast(100%);
+}
+.left-keys .img1{
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.left-top img{
+    height: 40px;
+    padding-top: 32px;
+    filter:invert(99%) sepia(9%) saturate(832%) hue-rotate(211deg) brightness(115%) contrast(100%);
+    
+}
+.left-keys{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    height: 55px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.left-keys .home{
+    margin-left: 15px;
+    font-weight: bold;
+}
+.left-keys:hover{
+    background-color:rgba(69, 69, 69, 0.563);
+    height: 55px;
+    border-radius: 25px;
+    
+    
+}
+.left-keys:hover .big{
+    height: 32px;
+    width: 32px;
+    object-fit:contain;
+    object-position: center;
+}
+
+.left-top{
+    padding-left: 20px;
+    
+}
+.left-middle{
+    padding-left: 10px;
+    
+}
+.left-bottom{
+    padding-top: 95px;
+    padding-left: 10px;
+
+    
+ 
+
+}
+.left-bottom img{
+    height: 30px;
+    width: 30px;
+    filter:invert(99%) sepia(9%) saturate(832%) hue-rotate(211deg) brightness(115%) contrast(100%);
+    display: flex;
+    align-items: center;
+    object-fit:contain;
+    object-position: center;
+}
+.absolute{
+    position: relative;
+}
+.absolute div{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border-radius: 20px;
+    background-color: red;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.absolute1{
+    position: relative;
+}
+.absolute1 div{
+    position: absolute;
+    padding: 2px;
+    height: 6px;
+    width: 6px;
+    background-color: red;
+    border-radius: 12px;
+    top: 0;
+    right: -3px;
+}
